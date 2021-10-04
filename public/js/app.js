@@ -3,10 +3,6 @@ const input = document.getElementById('input-location')
 const messageOne = document.getElementById('message-1')
 const messageTwo = document.getElementById('message-2')
 
-
-
-
-
 weatherForm.addEventListener('submit', (e) => {
     //prevent to reload the browser
     e.preventDefault()
