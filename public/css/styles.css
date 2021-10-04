@@ -1,0 +1,70 @@
+h1 {
+  color: rgb(78, 78, 223);
+  font-size: 60px;
+  margin-bottom: 1em;
+}
+.me {
+  width: 15em;
+}
+body {
+  background: #202020;
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.error-container {
+  background: #202020;
+  color: white;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+}
+
+.links {
+  color: #0080ff;
+  font-weight: bold;
+  margin-right: 16px;
+  text-decoration: none;
+}
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 1em;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.home {
+  text-decoration: none;
+}
+.portrait {
+  width: 250px;
+}
+input {
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+}
+button {
+  background-color: #48a14d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
