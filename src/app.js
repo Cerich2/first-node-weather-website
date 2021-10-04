@@ -40,7 +40,7 @@ app.get('/about',(req,res) => {
 
 app.get('',(req,res)=>{
     res.render('index',{
-        title: 'Weather App',
+        title: 'Weather Forecast',
         name: 'Spencer Castro',
 
     })
